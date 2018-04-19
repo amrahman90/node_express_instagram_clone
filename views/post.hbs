@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{>head}}
+	</head>
+
+	<body>
+		{{>nav}}
+
+		<div class="container main">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+
+					<div class="post-container">
+						<div class="row">
+							<div class="col-md-7">
+								<img src="{{thumbnail_src}}">
+
+							</div>
+							<div class="col-md-5">
+								<div class="post-detail">
+									<p>
+										<img src="{{user.icon}}" />
+										<strong>{{user.username}}</strong>
+									</p>
+									<hr />
+									<p>
+										{{edge_media_to_caption.edges.0.node.text}}
+									</p>
+									<hr />
+									<div style="text-align:right">
+										<strong>{{edge_liked_by.count}}</strong> <span>likes</span>
+										<span style="margin-left:16px;margin-right:16px">|</span>
+										<strong>{{edge_media_to_comment.count}}</strong> <span>comments</span>
+
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,62 @@
+body {
+	background: #f9f9f9
+}
+
+.nav {
+	background: #fff
+}
+
+.nav-logo {
+	padding: 12px
+}
+
+.main {
+	padding-top: 96px
+}
+
+.profile_icon {
+	border-radius: 50%;
+	border: 1px solid #ededed;
+}
+
+.header {
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 200;
+}
+
+.post {
+	padding: 0px;
+	margin-bottom: 16px;
+	margin-top: 16px
+}
+
+.post-container {
+	border: 1px solid #ededed;
+	border-radius: 2px;
+	background: #fff;
+	margin-top: 24px;
+}
+
+.post-container img {
+	max-width: 100%
+}
+
+.post img {
+	width: 100%
+}
+
+.post-detail {
+	padding: 24px 24px 24px 0px
+}
+
+.post-detail img {
+	width:40px;
+	border-radius:50%;
+	margin-right:12px;
+	border: 1px solid #ededed;
+}
+
+.search-container {
+	padding: 24px 0px 0px 0px
+}
